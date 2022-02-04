@@ -42,6 +42,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 </script>
             <?php
         }
+        if($validacao == true){
+            $pdo
+        }
         /* $pdo = Banco::conectar();
           $comando = "insert into contas(nomeconta, valor, tipo, datavencimento, status) values(?, ?, ?, ?, ?);";
           $executa = $pdo->prepare($comando);
